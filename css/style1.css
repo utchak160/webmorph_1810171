@@ -58,3 +58,32 @@ button .material-icons {
 .poster {
     left: 2%;
 }
+.section {
+    margin-left: 5%;
+}
+.heading {
+    color: whitesmoke;
+    border-left: thick solid whitesmoke;
+    border-block-style: solid;
+}
+.section img {
+    width: 300px;
+    height: 80%;
+    border-radius: 2%;
+    box-shadow: 0 0 8px 0 #000000;
+}
+.language {
+    margin-left: 5%;
+}
+.language img {
+    width: 100px;
+    height: 50%;
+}
+@media (min-width: 1200px) {
+    .seven-cols .col-md-1,
+    .seven-cols .col-sm-1,
+    .seven-cols .col-lg-1 {
+        width: 14.285714285714285714285714285714%;
+        *width: 14.285714285714285714285714285714%;
+    }
+}
