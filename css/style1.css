@@ -4,6 +4,12 @@ body {
     background-color: #152535;
     overflow-x: hidden;
 }
+p{
+    font-family: 'Poppins', sans-serif;
+}
+h1,h2{
+    font-family: 'Josefin Sans', sans-serif;
+}
 .container-fluid {
     padding: 0!important;
     margin: 0!important;
@@ -76,8 +82,52 @@ button .material-icons {
     margin-left: 5%;
 }
 .language img {
-    width: 100px;
-    height: 50%;
+    width: 150px;
+    height: 150px;
+}
+.rated {
+    margin-left: 5%;
+}
+.rated img {
+    margin-left: 2%;
+    width: 90%;
+    height: 60vh;
+    border-radius: 2%;
+}
+.card-bottom {
+    background-color: #203345;
+    display: flex;
+    box-shadow: 0 0 8px 0 #000000;
+    border-radius: 10px;
+    top: -4%;
+    z-index: -1;
+}
+.card-bottom .material-icons {
+    color: yellow;
+}
+.spacer{
+    flex: 1 1 auto;
+}
+.footer{
+    margin-top: 5%;
+    background-color: #203345;
+    color: gray;
+}
+.icon-wrapper {
+    display: flex;
+}
+.icon-wrapper img {
+    margin-right: 25%;
+    width: 20px;
+    height: 20px;
+    border-radius: 10%;
+}
+.links{
+    padding: 0 20%;
+}
+.logo img{
+    width: 150px;
+    height: 40px;
 }
 @media (min-width: 1200px) {
     .seven-cols .col-md-1,
