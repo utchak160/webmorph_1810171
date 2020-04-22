@@ -108,15 +108,7 @@ button .material-icons {
     height: 60vh;
     border-radius: 2%;
 }
-.card-bottom {
-    background-color: #203345;
-    display: flex;
-    box-shadow: 0 0 8px 0 #000000;
-    border-radius: 10px;
-    top: -4%;
-    z-index: -1;
-}
-.card-bottom .material-icons {
+.rated .material-icons {
     color: yellow;
 }
 
