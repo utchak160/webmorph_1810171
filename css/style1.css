@@ -14,6 +14,9 @@ h1,h2{
     padding: 0!important;
     margin: 0!important;
 }
+
+/*navbar*/
+
 .navbar {
     background-color: #203345;
     color: white;
@@ -53,6 +56,13 @@ h1,h2{
     color: white;
     padding-right: 4%;
 }
+
+
+
+/*banner*/
+.banner {
+    height: 100vh;
+}
 .content p {
     color: lightgray;
     font-size: 18px;
@@ -64,6 +74,10 @@ button .material-icons {
 .poster {
     left: 2%;
 }
+
+
+
+/*fan-favourite*/
 .section {
     margin-left: 5%;
 }
@@ -78,6 +92,10 @@ button .material-icons {
     border-radius: 2%;
     box-shadow: 0 0 8px 0 #000000;
 }
+
+
+
+/*languages*/
 .language {
     margin-left: 5%;
 }
@@ -85,6 +103,10 @@ button .material-icons {
     width: 150px;
     height: 150px;
 }
+
+
+
+/*top rated*/
 .rated {
     margin-left: 5%;
 }
@@ -105,9 +127,10 @@ button .material-icons {
 .card-bottom .material-icons {
     color: yellow;
 }
-.spacer{
-    flex: 1 1 auto;
-}
+
+
+
+/*footer*/
 .footer{
     margin-top: 5%;
     background-color: #203345;
@@ -129,6 +152,11 @@ button .material-icons {
     width: 150px;
     height: 40px;
 }
+
+
+
+
+/*page2 banner*/
 .detail {
 }
 .detail_heading{
@@ -143,6 +171,10 @@ button .material-icons {
 .table {
     color: gray;
 }
+
+
+
+/*Media-queries*/
 @media screen and (max-width: 1000px) {
     .poster_img {
         display: none;
