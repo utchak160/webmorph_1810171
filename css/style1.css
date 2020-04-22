@@ -143,3 +143,11 @@ button .material-icons {
 .table {
     color: gray;
 }
+@media screen and (max-width: 1000px) {
+    .poster_img {
+        display: none;
+    }
+    .content p{
+        font-size: 14px;
+    }
+}
