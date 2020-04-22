@@ -50,7 +50,7 @@ h1,h2{
     position: relative;
     top: 3px;
     right: 40px;
-    color: whitesmoke;
+    color: gray;
 }
 .account, .account:hover{
     color: white;
@@ -104,8 +104,6 @@ button .material-icons {
 
 .rated img {
     margin-left: 2%;
-    width: 90%;
-    height: 60vh;
     border-radius: 2%;
 }
 .rated .material-icons {
@@ -171,5 +169,11 @@ button .material-icons {
     }
     .table {
         font-size: 12px;
+    }
+    .hide{
+        display: none;
+    }
+    .rated h3{
+        font-size: 18px;
     }
 }
