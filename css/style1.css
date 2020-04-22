@@ -78,16 +78,13 @@ button .material-icons {
 
 
 /*fan-favourite*/
-.section {
-    margin-left: 5%;
-}
 .heading {
     color: whitesmoke;
     border-left: thick solid whitesmoke;
     border-block-style: solid;
 }
 .section img {
-    width: 300px;
+    width: 80%;
     height: 80%;
     border-radius: 2%;
     box-shadow: 0 0 8px 0 #000000;
@@ -96,20 +93,15 @@ button .material-icons {
 
 
 /*languages*/
-.language {
-    margin-left: 5%;
-}
 .language img {
-    width: 150px;
+    width: 150%;
     height: 150px;
 }
 
 
 
 /*top rated*/
-.rated {
-    margin-left: 5%;
-}
+
 .rated img {
     margin-left: 2%;
     width: 90%;
@@ -181,5 +173,8 @@ button .material-icons {
     }
     .content p{
         font-size: 14px;
+    }
+    .banner {
+        height: 70vh;
     }
 }
