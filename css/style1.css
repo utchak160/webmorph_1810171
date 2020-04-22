@@ -129,11 +129,17 @@ button .material-icons {
     width: 150px;
     height: 40px;
 }
-@media (min-width: 1200px) {
-    .seven-cols .col-md-1,
-    .seven-cols .col-sm-1,
-    .seven-cols .col-lg-1 {
-        width: 14.285714285714285714285714285714%;
-        *width: 14.285714285714285714285714285714%;
-    }
+.detail {
+}
+.detail_heading{
+    color: whitesmoke;
+}
+.detail_content{
+    color: gray;
+}
+.detail_content .material-icons {
+    color: yellow;
+}
+.table {
+    color: gray;
 }
