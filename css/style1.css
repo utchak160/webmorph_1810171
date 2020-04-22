@@ -94,7 +94,7 @@ button .material-icons {
 
 /*languages*/
 .language img {
-    width: 150%;
+    width: 150px;
     height: 150px;
 }
 
@@ -176,5 +176,8 @@ button .material-icons {
     }
     .banner {
         height: 70vh;
+    }
+    .table {
+        font-size: 12px;
     }
 }
