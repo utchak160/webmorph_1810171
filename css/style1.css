@@ -123,7 +123,7 @@ button .material-icons {
     display: flex;
 }
 .icon-wrapper img {
-    margin-right: 25%;
+    margin-right: 15%;
     width: 20px;
     height: 20px;
     border-radius: 10%;
@@ -203,7 +203,7 @@ button .material-icons {
     padding: 0!important;
 }
 .card:hover {
-    transform: scale(1.13);
+    transform: scale(1.23);
     z-index: 10;
 }
 .card .card-image {
